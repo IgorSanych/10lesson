@@ -3,19 +3,19 @@ const leftBorderWidth = 1;
 
 
 number = 10;
-console.log(number)
+console.log(number);
 
 const obj = { // как таковых констант в JavaScript не существует
 	a: 50
 };
 
 obj.a = 10;
-console.log(obj) // прямых констант в JavaScript не существует 
+console.log(obj); // прямых констант в JavaScript не существует 
 
 
 // Проблема Var в том что она существует до того как была объявлена в коде и соответсвенно видна она везде.
 console.log(name);
-var name = 'Igor' // переменную Varible не используют так как она устарела. Можно перезаписать как и Let.
+var name = 'Igor'; // переменную Varible не используют так как она устарела. Можно перезаписать как и Let.
 
 // Такое поведения когда переменную var мы можем использовать называеться ХОСТИНГ(HOSTING) ВСПЛЫТИЕ ПЕРЕМЕННЫХ.
 
@@ -25,7 +25,7 @@ var name = 'Igor' // переменную Varible не используют та
 	let result = 50;
 }
 
-console.log(result)
+console.log(result);
 
 
 // Режим современного кода. Существует директива "use strict"
